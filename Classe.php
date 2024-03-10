@@ -3,7 +3,7 @@ class Classe implements JsonSerializable{
     protected $alunni;
 
     public function __construct(){
-        $this->alunni = array();
+        $this->alunni = array(new Alunno("mario", "rossi", 10),new Alunno("sara", "bianchi", 15),new Alunno("bundeti", "masgrangideitaliaeyosoymuyobrigadoparalasuapreswencia", 98));
     }
 
     public function aggiungiAlunno($a){

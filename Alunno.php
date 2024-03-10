@@ -42,7 +42,7 @@ class Alunno implements JsonSerializable{
         return [
             'nome' => $this->nome,
             'cognome' => $this->cognome,
-            'eta' => $this->eta
+            'eta' => $this->anni
         ];
     }
 }
